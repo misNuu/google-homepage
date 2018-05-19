@@ -1,15 +1,89 @@
-.content {
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#big-logo {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+#menu-button {
+    width: 40px;
+}
+
+.center {
+    margin-top: 200px;
     text-align: center;
 }
 
-#logo {
-    margin-top: 200px;
-    margin-bottom: 25px;
-    width: 15%;
+.search-bar {
+    margin-top: 35px;
+    padding: 5px;
+    width: 540px;
+    height: 30px;
 }
 
-.search-bar {
-    width: 500px;
-    height: 16px;
-    padding: 10px;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+#sign-in-button {
+    color: white;
+    background-color: rgb(39, 112, 207);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}*/
+
