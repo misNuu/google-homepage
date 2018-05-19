@@ -1,0 +1,15 @@
+.content {
+    text-align: center;
+}
+
+#logo {
+    margin-top: 200px;
+    margin-bottom: 25px;
+    width: 15%;
+}
+
+.search-bar {
+    width: 500px;
+    height: 16px;
+    padding: 10px;
+}
