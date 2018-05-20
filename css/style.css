@@ -1,15 +1,17 @@
 * {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    font-family: 'Segoe UI';
 }
 
-.wrapper {
+.navbar {
     width: 100%;
     margin: 0 auto;
 }
 
 #menu-button {
     width: 20px;
+    padding-top: 6px;
 }
 
 
@@ -42,10 +44,8 @@ nav a {
     padding: 10px;
 }
 
-#big-logo {
-    width: 300px;
-    display: block;
-    margin: 0 auto;
+nav li {
+
 }
 
 .center {
@@ -53,15 +53,53 @@ nav a {
     text-align: center;
 }
 
-.search-bar {
-    margin-top: 35px;
-    padding: 5px;
-    width: 540px;
-    height: 30px;
-}
-
 .text-link:hover {
     text-decoration: underline;
     color: rgb(163, 163, 163);
 }
 
+.content {
+    padding-top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-box {
+    margin-top: 30px;
+    padding: 10px;
+    width: 500px;
+}
+
+.row {
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.buttons {
+    border: 0;
+    background-color: rgb(247, 247, 247);
+    padding: 10px;
+    color: rgb(124, 124, 124);
+    font-weight: 500;
+    margin-right: 5px;
+    border: solid 1px transparent;
+}
+
+.buttons:hover {
+    border: solid 1px rgb(173, 173, 173);
+    color: rgb(97, 97, 97);
+}
+
+#lang-text{
+    margin-top: 25px;
+}
+
+.lang-link {
+    text-decoration: none;
+}
+
+.lang-link:hover {
+    text-decoration: underline;
+
+}
