@@ -18,8 +18,9 @@
     color: white;
     background-color: rgba(57, 149, 235, 0.952);
     padding: 6px 12px 6px 12px;
-    border-radius: 5px;
+    border-radius: 3px;
     font-weight: 600;
+    font-size: 15px;
 }
 
 nav {
@@ -63,32 +64,4 @@ nav a {
     text-decoration: underline;
     color: rgb(163, 163, 163);
 }
-
-
-
-
-
-
-
-
-
-
-/*
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}*/
 
